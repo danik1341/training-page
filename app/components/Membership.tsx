@@ -7,7 +7,7 @@ const Membership = () => {
   const [hovering, setHovering] = useState(false);
 
   return (
-    <div className="flex flex-col lg:min-w-full min-w-fit w-screen items-center justify-center lg:p-24 p-10">
+    <div className="flex flex-col lg:min-w-full min-w-fit w-screen items-center justify-center lg:p-24 lg:mt-0 mt-10">
       <h1 className="font-medium lg:text-5xl text-sm">Membership</h1>
       <hr className="w-3/4 border-1 border-gray-600 mt-2" />
       <div className="flex lg:flex-row flex-col gap-10">

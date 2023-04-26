@@ -3,7 +3,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <div className="lg:min-w-full min-w-fit w-screen items-center justify-center lg:p-24 p-10">
+    <div className="lg:min-w-full min-w-fit w-screen items-center justify-center lg:p-24 lg:mt-0 mt-5">
       <div className="flex flex-col gap-5 items-center justify-center lg:min-w-full min-w-fit w-full">
         <div className="flex lg:flex-row flex-col items-center justify-center gap-5">
           <div className="lg:w-[640px] lg:h-[540px] w-[340px] h-[150px]">
