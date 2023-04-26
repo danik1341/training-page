@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="lg:min-w-full min-w-fit items-center justify-center">
+      <body className="lg:min-w-full min-w-fit lg:items-center lg:justify-center">
         <Navbar />
         {children}
         <Hero />
